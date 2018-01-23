@@ -1,0 +1,12 @@
+* Download the script to a folder on your Linux machine (eg.: /root/scripts/), then execute it
+
+wget
+chmod +x tuner.sh
+./tuner.sh
+
+* Allow the script to run everytime the system starts
+
+nano /etc/rc.local
+
+# Add the following line:
+/root/scripts/tuner.sh
