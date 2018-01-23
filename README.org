@@ -1,12 +1,17 @@
-* Download the script to a folder on your Linux machine (eg.: /root/scripts/), then execute it
+* Download the script to a folder on your Linux machine, then execute it
 
-wget
+#+BEGIN_SRC bash
+wget https://raw.github.com/manishmarahatta/tuner/master/tuner.sh
 chmod +x tuner.sh
 ./tuner.sh
-
+#+END_SRC
 * Allow the script to run everytime the system starts
 
+#+BEGIN_SRC bash
 nano /etc/rc.local
+#+END_SRC
 
-# Add the following line:
+*** Add the following line:
+#+BEGIN_SRC bash
 /root/scripts/tuner.sh
+#+END_SRC
